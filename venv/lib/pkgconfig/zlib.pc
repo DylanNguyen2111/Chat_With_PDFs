@@ -1,0 +1,13 @@
+prefix=/Users/dylannguyen/Chat_with_PDFs/venv
+exec_prefix=/Users/dylannguyen/Chat_with_PDFs/venv
+libdir=/Users/dylannguyen/Chat_with_PDFs/venv/lib
+sharedlibdir=/Users/dylannguyen/Chat_with_PDFs/venv/lib
+includedir=/Users/dylannguyen/Chat_with_PDFs/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
